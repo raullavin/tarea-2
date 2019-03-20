@@ -1,9 +1,27 @@
-h4{color:pink;}
-li
-{color:blue;}
-h2{color:green;}
-h4{color:pink;}
+* {font-family: "Courir New", Courier, monospace;}
+/** Esto es un comentarioh4{color:pink;}
 li
 {color:blue;}
 h2{color:green;}
 h1{color:red;}
+Esto es el final del comentario**/
+#titulo{
+	background-color:grey;
+	color: white
+	font-size:24px;
+}
+.ejemplo1{
+	background-color:blue;
+	color:white;
+}
+.ejemplo2{
+	background-color:blue;
+	color:yellow;
+}
+h2, h3{border:1px solid orange;}
+li{color:red}
+li li {color:green}
+div>a{border:5px solid green;}
+h2+p {background-color:green;}
+p~h3.antes {background-color:pink;}
+img[alt="ejemplo"]{border:5px solid grey;}

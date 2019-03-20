@@ -10,10 +10,42 @@
 <body>
 <!-- Cabecera de la página web -->
 <div>
-	<h1>TODO ES UNA CAJA</h1>
-		<p> Uno de los conceptos mas importantes que debemos recordar a la hora de elaborar CSS es que todos y cada 	uno de los elemtos de mi pagina web son cajas</p>
-		<p> Eso, exactamente, ¿Que sigfnifica?. Significa que todos los elemntos HTML tienen la siguiente estructura visual</p>
-		Con ese modelo debemos por lo tanto distinguir las siguientes zonas: <img src="cajahtml.png">
+	<h1 id="titulo">CSS: Sintaxis y selectores</h1>
+	
+	<hr>
+	<h2>Sintaxis CSS</h2>
+		<p>Un conjunto de reglas CSS consta de un selector y un bloque de declaracion</p>
+		<img src="selector.png">
+		<ul>
+			<li>
+				El selector apunta al elemento HTML que desea dar estilo.
+				<ul>
+					<li>El bloque de declaración contiene una o más declaraciones separadas por punto y 
+					coma.</li>
+
+					<li>Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.</li>
+
+					<li>Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaración están rodeados por llaves.</li>
+				</ul>
+			</li>
+		</ul>
+		<p>En el siguiente ejemplo, todos los elementos &lt;p&gt; se alinearán en el centro, con un color de texto rojo:</p>
+		<h4 class="ejemplo1">Ejemplo</h4>
+		<div>
+		<img src="ejemplo.png" alt="ejemplo">
+		<a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">"Intentalo tu mismo"</a>
+		</div>
+		<h3 class="antes">Los selectores CSS</h3>
+		<p>Los selectores CSS se utilizan para &quot;encontrar&quot; (o seleccionar elemntos HTML en funcion del nombre (del elemento), ID, clase, atributo, etc.</p>
+		<hr>
+		<h3 class="despues">El selector de los elementos</h3>
+		<p>El selector de elementos selecciona elementos basados en el nombre del elemento</p>
+		<p>Puedes seleccionar todos los elementos &lt;p&gt; en una pagina como esta ( en este caso, todos los elementos &lt;p&gt; estaran centrados y seran de color rojo):</p>
+		<h4 class="ejemplo2">Ejemplo</h4>
+		<div>
+		<img src="ejemplo.png">
+		<a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_element">"Intentalo tu mismo"</a>
+		</div>
 	<ul>
 		<li> El contenido que es lo "importante", el texto en las etiquetas de texto, la imagen en las etiquetas de imagen, etc.</li>
 		<li>El padding que es la distancia que existe entre el contenido y el borde la caja.</li>
@@ -26,7 +58,7 @@
 		<p> En cambio, los elementos en linea se van sucediendo a lo lrago de lña misma linea, mientras caben, uno detras de otro y de izquierda a derecha (al menos en nuestro idioma). Cuando no caben pasan a la linea siguiente. Digamos que "fluyen" dependiendo de la anchura de pantalla de nuestro navegador</p>
 		<p>Representado esto graficamente algo asi:</p>
 		<img src="cajahtml2.png">
-		<h4> NOTA: Es muy importante saber que tipo de elemento es cada etiqueta que usamos</h4>
+		<h3> NOTA: Es muy importante saber que tipo de elemento es cada etiqueta que usamos</h3>
 </div>
 </body>
 </html>

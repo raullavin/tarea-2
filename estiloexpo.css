@@ -1,0 +1,39 @@
+body {background-color:grey;}
+
+h1 {text-align:center}
+
+#imagen1
+	{
+	width: 100%;
+	border-top: 10px solid green;
+	border-bottom: 10px dashed orange;
+	background-color: blue;
+	width: 40%;	 
+	}
+
+#imagen2
+	{	
+	width: 100%;
+	border-top: 10px solid green;
+	border-bottom: 10px dashed orange;
+	background-color: blue;
+	width: 40%;	 
+	}
+#imagen1, #imagen2{
+	margin: 50px;
+	padding:30px;
+}
+
+p{
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 50px;
+	width: 40%;
+	padding: 50px 60px;
+}
+
+
+
+
+

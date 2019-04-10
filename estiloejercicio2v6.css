@@ -1,0 +1,68 @@
+table {
+	border-collapse: collapse;
+	text-align: center;
+	font-family:sans-serif;
+}
+
+td, th {
+	border: 1px solid lightpink;
+}
+
+caption {
+	background-color: lightpink;
+	color:green;
+	font-size:18px;
+}
+
+tbody tr th:first-child {
+	background-color: lightpink;
+	color:green;
+	font-size:18px;
+}
+
+tbody tr:nth-child(4) td:nth-child(2) {
+	background-color: lightgreen;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color:violet;
+}
+
+a:link {
+	color:green;
+}
+
+tr td:nth-child(7):hover,
+tr th:nth-child(2):hover,
+tr td:last-child:hover {
+	font-size:1.8em;
+	background-color:grey;
+	color:green;
+}
+
+thead tr th p::first-letter {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+input:required {
+	border: 1px solid lightgreen;
+	padding: 10px;
+}
+
+label::after {
+	color: red;
+	content:"*";
+	vertical-align:super;
+}
+
+input[type="button"] {
+	background-color: lightgreen;
+	color: grey;
+}
+
+
